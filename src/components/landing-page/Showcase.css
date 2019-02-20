@@ -26,10 +26,11 @@
 }
 
 #showcase-button {
-    background: #f16631;
+    background: #ffc423;
     color: #ffffff;
     border: 0;
     font-size: 13px;
+    font-weight: bold;
     padding: 13px 26px;
     border-radius: 5px;
 }
