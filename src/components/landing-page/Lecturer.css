@@ -1,0 +1,93 @@
+#lecturer-container {
+    width: 100%;
+    padding: 70px 0;
+    /* border: 1px solid green; */
+    border-top: 1px solid #e0e0e0;
+}
+
+#lecturer-container .wrapper {
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 0;
+}
+
+#lecturer-text {
+    color: #172b39;
+    text-align: center;
+}
+
+#lecturer-title {
+    font-size: 38px;
+}
+
+#lecturer-desc {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#slider-container {
+    position: relative;
+    min-width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+    padding-top: 10px;
+    overflow-x: hidden;
+    /* overflow-y: hidden */
+}
+
+#slider-wrapper {
+    display: flex;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.prev-next {
+    background: #f16631;
+    color: #ffffff;
+    border: 0;
+    padding: 8px 13px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.prev-next:disabled {
+    opacity: 0.7;
+}
+
+#button-prevnext-container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    #lecturer-container .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #slider-container {
+        padding-bottom: 10px;
+        height: unset;
+    }
+
+    #lecturer-text {
+        width: 40%;
+    }
+    #lecturer-text div {
+        width: 90%;
+        float: right;
+    }
+    #lecturer-item {
+        width: 60%;
+    }
+
+    #button-prevnext-container {
+        /* border: 1px solid black; */
+        /* padding: 0; */
+        width: 15%;
+    }
+}

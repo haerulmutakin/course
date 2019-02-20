@@ -1,0 +1,82 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#navigation-section {
+    width: 100vw;
+    height: 100vh;
+    background: #172b39;
+    position: fixed;
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+    -webkit-animation: fadein 0.5s;
+}
+
+#navigation-section #brand label{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#navigation-section #humberger label {
+    color: #ffffff;
+}
+#navigation-section nav{
+    align-items: center;
+}
+
+#navigation-section .nav{
+    margin-top: 70px;
+}
+
+#navigation-section .nav > li{
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+#navigation-section .nav > li:hover{
+    background:#0f1d27;
+    font-weight: bold;
+}
+
+#navigation-section .nav > li a{
+    margin-left: 5%;
+}
+
+
+#navigation-section .nav > li > a{
+    color: #ffffff;
+}
+
+#navigation-section .social-container{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 20px 0 0 0;
+    left: 0;
+    right: 0;
+}
+
+.social-container #follow {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#navigation-section .social{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+#navigation-section .social > li :hover{
+    color: aqua;
+}
+
+#navigation-section .social > li a{
+    font-size: 28px;
+    color: steelblue;
+}
+

@@ -1,0 +1,44 @@
+#subscription {
+    padding: 70px 0;
+    background: #172b39;
+}
+
+#subscription .wrapper {
+    text-align: center;
+    color: #ffffff;
+}
+
+#subscription-title {
+    font-size: 38px;
+}
+
+#subscription-desc {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#subscription-mail {
+    width: 100%;
+    height: 38px;
+    background: #eeeeee;
+    border: none;
+    font-size: 18px;
+    color: #05339d;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+#subscription-button {
+    background: #f16631;
+    color: #ffffff;
+    border: 0;
+    padding: 13px 26px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    #subscription .wrapper {
+        width: 500px;
+    }
+}

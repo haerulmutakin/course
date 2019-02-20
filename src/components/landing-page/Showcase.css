@@ -1,0 +1,106 @@
+#showcase-container {
+    position: relative;
+    height: 90vh;
+    background: #4686cc;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#showcase-container .wrapper {
+    /* border: 1px solid black; */
+    width: 90%;
+    /* height: 50vh; */
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#showcase-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#showcase-desc {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+#showcase-button {
+    background: #f16631;
+    color: #ffffff;
+    border: 0;
+    font-size: 13px;
+    padding: 13px 26px;
+    border-radius: 5px;
+}
+
+#looking-label a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#showcase-image-container {
+    display: none;
+}
+
+#showcase-image-container img {
+    width: 100%;
+    /* margin: 20px auto; */
+}
+
+.svg-container-front {
+    height: 170px; overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0 !important;
+    z-index: 10;
+}
+
+.svg-container-back {
+    height: 190px; overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0 !important;
+    z-index: 9;
+}
+
+
+svg {
+    height: 100%; width: 100%;
+}
+
+.svg-container-front path {
+    stroke: none;
+    fill: #ffffff;
+}
+
+.svg-container-back path {
+    stroke: none;
+    fill: #a6c5e6;
+}
+
+@media screen and (min-width: 768px) {
+    #showcase-container .wrapper {
+        /* width: 80%; */
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+    /* border: 1px solid black; */
+    }
+
+    #showcase-info-container {
+        /* border: 1px solid black; */
+        width: 30%;
+    }
+
+    #showcase-image-container {
+        /* border: 1px solid black; */
+        display: block;
+        width: 55%;
+    }
+}
